@@ -6,6 +6,6 @@ Nessa semana OmniStack foi desenvolvida da aplicação DevRadar, utilizando Reac
 ![](ReactJS.png)
 
 # React Native
-![](ReactNative_1.PNG)
+![](ReactNative_1.PNG) ![](ReactNative_2.PNG)
 ![](ReactNative_2.PNG)
 ![](ReactNative_3.PNG)

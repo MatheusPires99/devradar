@@ -6,6 +6,6 @@
 ![](ReactJS.png)
 
 # React Native
-![](ReactNative_1.png)
-![](ReactNative_2.png)
-![](ReactNative_3.png)
+![](ReactNative_1.PNG)
+![](ReactNative_2.PNG)
+![](ReactNative_3.PNG)

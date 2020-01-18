@@ -1,0 +1,78 @@
+Commands to create this project:
+
+cd Projects
+mkdir SemanaOmnistack10
+cd SemanaOmnistack10
+
+# BACKEND
+
+mkdir backend
+cd backend
+
+# this will create package.json to run a node backend
+yarn init -y
+
+# starts VS Code
+code .
+
+# this will install express node modules, create yarn.lock and add dependencies to package.json
+yarn add express
+
+# install development dependency to make node react to code changes on the fly
+yarn add nodemon -D
+# example:  yarn nodemon index.js will reload the app
+
+# install mongoDb dependency
+yarn add mongoose
+
+# test your mongoDb port is open http://portquiz.net:27017/
+
+# install axios to be able to call other APIs
+yarn add axios
+
+
+# FRONTEND (web folder)
+
+yarn create react-app web
+yarn add axios
+
+# BACKEND (backend folder)
+
+yarn add cors
+
+# MOBILE FRONT END
+
+yarn global add expo-cli
+
+# google for yarn global path and copy the export line below
+# export PATH="$(yarn global bin):$PATH"
+# edit ~/.bash_profile to include the line 
+code .bash_profile
+
+run expo start
+
+# from reactnavigation.org documentation
+
+yarn add react-navigation
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context
+yarn add react-navigation-stack @react-native-community/masked-view
+
+# from http://docs.expo.io/
+
+# consider using gitpod and tunnel mode
+
+expo install react-native-maps
+expo install expo-location
+expo install react-native-webview
+
+yarn add axios
+
+# icons are listed in material.io/resources/icons
+
+# in the backend again
+
+yarn add socket.io
+
+# in the mobile again
+
+yarn add socket.io-client
